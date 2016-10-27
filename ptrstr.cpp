@@ -1,5 +1,6 @@
 //ptrstr.cpp -- using pointers to strings;
-
+//interesting note: Normally, if you give cout a pointer, it prints an address; 
+// but if the pointer is type char *, it displays the pointed-to string;
 #include <iostream>
 #include <cstring>        //declare strlen(), strcpy();
 
