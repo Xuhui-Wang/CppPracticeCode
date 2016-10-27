@@ -1,4 +1,3 @@
-
 // arraynew.cpp -- using the new operator for arrays
 #include <iostream>
 int main()
