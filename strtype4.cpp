@@ -1,4 +1,5 @@
 // strtype4.cpp -- line input
+//cin.getline(char[], arraySize); getline(cin, str);
 #include <iostream>
 #include <string>
 #include <cstring>
