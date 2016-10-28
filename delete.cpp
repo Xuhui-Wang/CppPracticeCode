@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstring>
 // or string.h
+
 using namespace std;
 char * getname(void);
 // function prototype
