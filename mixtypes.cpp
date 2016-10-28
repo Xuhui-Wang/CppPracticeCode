@@ -1,4 +1,5 @@
 //mixtypes.cpp --- some type combinations
+// use "g++ -std=c++0x -o ..."
 #include <iostream>
 using namespace std;
 struct antarctica_years_end
@@ -18,7 +19,7 @@ int main()
 	const antarctica_years_end * arp[3] = {&s01, &s02, &s03};
 	cout << arp[1] -> year << endl;
 	const antarctica_years_end ** ppa = arp;
-	const antarctica_years_end ** ppb = arp;     // C++11 auto type deduction --- auto;
+	auto ppb = arp;     // C++11 auto type deduction --- auto;
 	cout << (*ppa) -> year << endl;
 	cout << (*(ppb + 1)) -> year << endl;
 	return 0;
