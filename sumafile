@@ -1,4 +1,5 @@
 // sumafile.cpp -- functions with an array argument
+
 #include <iostream>
 #include <fstream> // file I/O support
 #include <cstdlib> // support for exit()
