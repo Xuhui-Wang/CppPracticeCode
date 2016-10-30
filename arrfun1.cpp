@@ -10,6 +10,10 @@ int cookies[ArSize] = {1,2,4,8,16,32,64,128};
 // enable array initialization
 int sum = sum_arr(cookies, ArSize);
 cout << "Total cookies eaten: " << sum << "\n";
+
+cout << "address of cookies:" << cookies << "address of cookies + 1:" << cookies + 1<< endl;
+cout << " & cookies : " << &cookies <<" & cookies + 1 : " << (&cookies + 1) << endl;
+cout << " & cookies[0]: " <<&cookies[0] << "&cookies[0] + 1"<<  &cookies[0] + 1 << endl; 
 return 0;
 }
 // return the sum of an integer array
